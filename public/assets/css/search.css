@@ -1,0 +1,145 @@
+body {
+    background-color: #13141A;
+}
+
+.boxinput {
+    width: 1050px;
+    height: 50px;
+    background-color: transparent;
+    color: rgb(248, 245, 245);
+    font-size: 20px;
+    border: nones;
+    border-bottom: transparent;
+    border-right: transparent;
+    outline: none;
+    
+}
+
+.searchbox{
+    margin-left: 10px;
+}
+
+.marginseven {
+    margin-top: 10px;
+
+}
+
+.h-75
+{
+    border: none;
+}
+
+
+
+.col{
+    position: relative;
+    min-width: 150px;
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 2px;
+   
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background: rgba(10, 10, 10, 0.2);
+    backdrop-filter: blur(17px);
+    --webkit-backdrop-filter: blur(17px);
+   
+    transition: width 0.3s ease;
+}
+
+.sidebar:hover {
+    width: 0px;
+}
+
+
+.sidebar .links {
+    list-style: none;
+    margin-top: 110px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    height: calc(100% - 140px);
+    
+}
+
+.sidebar .links::-webkit-scrollbar {
+    display: none;
+}
+
+.links li {
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.links li:hover {
+    cursor: pointer;
+    
+}
+
+.sidebar:hover .links h4 {
+    display: block;
+}
+
+.sidebar:hover .links hr {
+    border-color: transparent;
+}
+
+.links li span {
+    padding: 12px 10px;
+}
+
+.links li a {
+    padding: 1px;
+    color: #000;
+    display: none;
+    font-weight: 500;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.sidebar:hover .links li a {
+    display: block;
+}
+
+
+.footer
+{
+    
+    width: 100%;
+    min-height: 350px;
+    background-color: #0F1014;
+}
+.footer-style
+{
+    
+    color: aliceblue;
+    padding: 20px 10% 0px 10%;
+    
+}
+div.footer-style a{
+    text-decoration: none;
+    color: blueviolet;
+}
+div.footer-style svg,a{
+    
+    color: mintcream;
+}
+.copyright
+{
+    color: white;
+    margin: 50px 0px 20px 100px;
+}
+div.copyright a{
+    text-decoration: none;
+    color: blueviolet;
+}

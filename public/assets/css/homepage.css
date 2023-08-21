@@ -1,0 +1,250 @@
+/* Importing Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/hero-bg.jpg");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+
+.top{
+    margin-left: 170px;
+}
+
+
+.owl {
+    position: relative;
+    min-width: 150px;
+    width: 50px;
+    height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 10px;
+    transition: .5s;
+    background: #000;
+ }
+ .owl:hover {
+    transform: scale(1.1);
+ }
+ .owl:hover .card-body {
+    opacity: 1;
+ }
+
+ .owl .img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+ }
+
+ .card-body {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 2;
+    background: linear-gradient(to bottom, rgba(4, 8, 15, 0), #192133 90%);
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 5px;
+ }
+
+ .name {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 60%;
+ }
+
+ .des {
+    color: #fff;
+    opacity: 0.8;
+    margin: 5px 0;
+    font-weight: 500;
+    font-size: 12px;
+ }
+
+ .watchlist-btn {
+    position: relative;
+    width: 100%;
+    text-transform: capitalize;
+    background: none;
+    border: none;
+    font-weight: 500;
+    text-align: right;
+    color: white;
+    margin: 8px 0  ;
+    cursor: pointer;
+    padding: 10px 5px;
+    border-radius: 5px;
+    top: 11px;
+ }
+
+ .watchlist-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -5px;
+    height: 35px;
+    width: 35px;
+    background-image: url(images/add.png);
+    background-size: cover;
+    transform: scale(0.4);
+ }
+
+ .watchlist-btn:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 5px;
+ }
+
+
+.video-card-container {
+    position: relative;
+    width: 92%;
+    margin: auto;
+    height: 10vw;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+ }
+
+ .video-card {
+    position: relative;
+    min-width: calc(100%/5 - 10px);
+    width: calc(100%/5 - 10px);
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #030b17;
+ }
+
+ .video-card-image,
+ .card-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .card-video {
+    position: relative;
+ }
+
+ .video-card:hover .video-card-image {
+    display: none;
+ }
+
+
+
+ .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    backdrop-filter: blur(17px);
+    --webkit-backdrop-filter: blur(17px);
+   
+    transition: width 0.3s ease;
+}
+
+.sidebar:hover {
+    width: 0px;
+}
+
+
+.sidebar .links {
+    list-style: none;
+    margin-top: 110px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    height: calc(100% - 140px);
+    
+}
+
+.sidebar .links::-webkit-scrollbar {
+    display: none;
+}
+
+.links li {
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.links li:hover {
+    cursor: pointer;
+    
+}
+
+.sidebar:hover .links h4 {
+    display: block;
+}
+
+.sidebar:hover .links hr {
+    border-color: transparent;
+}
+
+.links li span {
+    padding: 12px 10px;
+}
+
+.links li a {
+    padding: 1px;
+    color: #000;
+    display: none;
+    font-weight: 500;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.sidebar:hover .links li a {
+    display: block;
+}
+
+.footer
+{
+    
+    width: 100%;
+    min-height: 350px;
+    background-color:black;
+}
+.footer-style
+{
+    
+    color: aliceblue;
+    padding: 20px 10% 0px 10%;
+    
+}
+div.footer-style a{
+    text-decoration: none;
+    color: blueviolet;
+}
+div.footer-style svg,a{
+    
+    color: mintcream;
+}
+.copyright
+{
+    color: white;
+    margin: 50px 0px 20px 100px;
+}
+div.copyright a{
+    text-decoration: none;
+    color: blueviolet;
+}
