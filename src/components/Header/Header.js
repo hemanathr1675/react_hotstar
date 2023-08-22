@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
   return (
     <aside className="sidebar">
-      <div className="logo">
+      <div className="logo1">
         <img
           src="https://images.firstpost.com/wp-content/uploads/2019/11/Disneyplus.jpg"
           alt="logo"
@@ -33,9 +35,9 @@ const Header = () => {
             />
           </svg>
           <span className="material-symbols-outlined"></span>
-          <a href="login/login.html" style={{ color: 'white' }}>
+          <Link to="/LoginBtn"><div style={{ color: 'white' }}>
             My space
-          </a>
+          </div></Link>
         </li> <br/>
         <li>
   <svg

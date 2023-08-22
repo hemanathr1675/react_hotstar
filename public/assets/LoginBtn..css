@@ -1,0 +1,29 @@
+.login
+{
+    width: 100%;
+    min-height: 500px;
+    background-color: #000;
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/feature/myspace/my_space_login_in.png);
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-position: 0px;
+    background-position-x: center;
+    background-position-y: 100px;
+    
+}
+div.log-style h3
+{
+    padding: 260px 20% 25px 40% ;
+}
+div.log-style p
+{
+    align-items: center;
+    padding-bottom: 25px;
+}
+div.log-style button
+{
+    margin-left: 34%;
+    width: 30rem;
+    margin-bottom: 200px;
+}
+
