@@ -6,10 +6,8 @@ const LoginBtn = () => {
   return (
 
     <div>
-      <div>
-        <Header />
-      </div>
-      <div>
+      
+      
         <div className="login">
           <div className="row">
             <div className="col">
@@ -26,7 +24,7 @@ const LoginBtn = () => {
             </div>
           </div>
         </div>
-      </div>
+      
       
     </div>
 
