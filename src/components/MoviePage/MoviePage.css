@@ -1,0 +1,45 @@
+
+
+.MoviePage {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin-left: 180px;
+  }
+  
+  
+  .movie-list {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .movie-list ul {
+    list-style: none;
+    padding: 0;
+    color: white;
+  }
+  
+  .movie-list button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .movie-detail {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .movie-detail img {
+    max-width: 100%;
+    height: auto;
+  }
+  

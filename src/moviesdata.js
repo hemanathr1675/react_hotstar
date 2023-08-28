@@ -208,6 +208,76 @@ export const MOVIEDATA = [
         releaseDate:"2023",
         userSuggest:"popular"
         
+    },
+    {
+        id:"movie01",
+        movieName:"AVENGERS-Age of Ultran",
+        details: "Age of Ultron is a 2015 American superhero film based on the Marvel Comics superhero team the Avengers.",
+        movieImg:"https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_.jpg",
+        language:["Tamil", "English","Hindi"],
+        duration:"140 mins",
+        certificate:"U/A",
+        releaseDate:"2015",
+        userSuggest:" "
+    },
+    {
+        id:"movie02",
+        movieName:"THOR",
+        details: "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+        movieImg:"https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_.jpg",
+        language:["Tamil", "English","Hindi"],
+        duration:"114 mins",
+        certificate:"U/A",
+        releaseDate:"2011",
+        userSuggest:" "
+    },
+    {
+        id:"movie03",
+        movieName:"Good Night",
+        details: "Good Night is a 2023 Indian Tamil-language romantic comedy film written and directed by Vinayak Chandrasekaran in his directorial debut.",
+        movieImg:"https://d1vzdswwroofzl.cloudfront.net/wp-content/uploads/2023/07/Good-Night-Movie-Review-Rating.jpg",
+        language:"Tamil",
+        duration:"135 mins",
+        certificate:"U",
+        releaseDate:"2023",
+        userSuggest:" "
+
+    },
+    {
+        id:"movie04",
+        movieName:"Avengers",
+        details: "Marvel's The Avengers or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name.",
+        movieImg:"https://m.media-amazon.com/images/M/MV5BM2Q5MjY1ZGQtZjY2My00NTg5LWIzZGYtY2E4MzgxYzQ0MjYwXkEyXkFqcGdeQXVyNzEzNjU1NDg@._V1_FMjpg_UX1000_.jpg",
+        language:["Tamil", "English","Hindi"],
+        duration:"145 mins",
+        certificate:"U/A",
+        releaseDate:"2012",
+        userSuggest:" "
+
+    },
+    {
+        id:"movie05",
+        movieName:"Teddy",
+        details: "Age of Ultron is a 2015 American superhero film based on the Marvel Comics superhero team the Avengers.",
+        movieImg:"https://img1.hotstarext.com/image/upload/f_auto,t_vl/sources/r1/cms/prod/8367/928367-v",
+        language:"Tamil",
+        duration:"135 mins",
+        certificate:"U",
+        releaseDate:"2021",
+        userSuggest:" "
+        
+    },
+    {
+        id:"movie6",
+        movieName:"The Lion King",
+        details: "Age of Ultron is a 2015 American superhero film based on the Marvel Comics superhero team the Avengers.",
+        movieImg:"https://images.moviesanywhere.com/c07276e9473360730fdbc94baebc4236/4692c964-61ba-486d-9c77-939dbfba2f07.jpg",
+        language:["Tamil", "English","Hindi"],
+        duration:"158 mins",
+        certificate:"U/A",
+        releaseDate:"2019",
+        userSuggest:" "
+        
     }
 
 ]

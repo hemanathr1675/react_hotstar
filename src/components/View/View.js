@@ -1,12 +1,12 @@
-import "./Movieslist.css";
+import "./View.css";
+import React from "react";
 
-const Movieslist = ({data, suggest}) =>{
+const View = ({data, suggest}) =>{
     console.log(data)
     return (
         <div className="page-section">
             <div className="section-title">
-                <h2>{suggest} Videos </h2>
-                <a href="/View" style={{marginLeft:"800px"}}><h2>View all {'>'} </h2></a>
+                <h2>{suggest}  </h2>
             </div>
             {data.length > 0 && 
                 <div className="container-fluid">
@@ -26,9 +26,9 @@ const Movieslist = ({data, suggest}) =>{
                                                 alt="..."
                                             /></a>
                                             <div className="card-body">
-                                               <a href="/Movie"><h2 className="name">{items.movieName}</h2></a> 
+                                               <a href="#"><h2 className="name">{items.movieName}</h2></a> 
                                                 <h6 className="des">{items.details}</h6>
-                                                <a href="/Movie"><button className="watchlist-btn">add  watchlist</button></a> 
+                                                <a href="#"><button className="watchlist-btn">add  watchlist</button></a> 
                                             </div>
                                         </div>
                                         
@@ -44,4 +44,4 @@ const Movieslist = ({data, suggest}) =>{
     )
 }
 
-export default Movieslist;
+export default View;
