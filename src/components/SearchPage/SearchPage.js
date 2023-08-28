@@ -1,9 +1,9 @@
 import "./SearchPage.css";
-import { Navbar,Search,Search1 } from "../Search/Search";
+import { Navbar, Search, Search1 } from "../Search/Search";
 import { useContext } from "react";
 import { CreateContextApi } from "../../Store/ContextApi";
 
-const SearchPage = ()=>{
+const SearchPage = () => {
     const contextApi = useContext(CreateContextApi);
 
 

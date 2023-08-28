@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {SubscriptionPlan,PaymentForm} from '../Subscription/Subscription';
+import { SubscriptionPlan, PaymentForm } from '../Subscription/Subscription';
 import './SubscriptionPage.css'; // SubscriptionPagely your own styling
 
 const SubscriptionPage = () => {

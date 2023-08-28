@@ -6,7 +6,7 @@ import Movieslist from "../Movieslist/Movieslist";
 import { useContext } from "react";
 import { CreateContextApi } from "../../Store/ContextApi";
 
-const HomePage = ()=>{
+const HomePage = () => {
     const contextApi = useContext(CreateContextApi);
 
 

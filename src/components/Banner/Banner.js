@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 
 const Banner = () => {
   return (
@@ -20,14 +20,14 @@ const Banner = () => {
           <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/3132/1383132-i-011cefc50da9" className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <img src="https://img10.hotstar.com/image/upload/f_auto,h_148/sources/r1/cms/prod/3134/1383134-t-aeff48613307" />
-            <p>Some representative placeholder content for the second slide.</p>
+           
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="1500">
           <img src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7475/1557475-i-e371b3e8fdb4" className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <img src="https://img10.hotstar.com/image/upload/f_auto,h_148/sources/r1/cms/prod/7474/1557474-t-c7f82f7f99df" />
-            <p>Some representative placeholder content for the third slide.</p>
+            
           </div>
         </div>
       </div>

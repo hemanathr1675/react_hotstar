@@ -1,33 +1,42 @@
-.footer
-{
-    
+.footer {
+
     width: 100%;
     min-height: 100px;
     background-color: #000;
     padding-top: 50px;
     margin-left: 10px;
 }
-.footer-style
-{
-    
+
+.footer-style {
+
     color: aliceblue;
     padding: 20px 10% 0px 10%;
-    
+
 }
-div.footer-style a{
+
+div.footer-style a {
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(143, 152, 178);
+    font-size: 11pt;
 }
-div.footer-style svg,a{
-    
+
+div.footer-style svg,
+a {
+
     color: mintcream;
 }
-.copyright
-{
+
+.copyright {
     color: white;
     margin: 50px 0px 20px 100px;
 }
-div.copyright a{
+
+div.copyright a {
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(143, 152, 178);
+}
+
+.p_style {
+    color: rgb(143, 152, 178);
+    font-size: 11pt;
 }

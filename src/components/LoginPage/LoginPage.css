@@ -1,13 +1,12 @@
-.login_overall
-{
+.login_overall {
     width: 100%;
     min-height: 800px;
     background-color: white;
-    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/453/445/desktop-wallpaper-disney-plus-hotstar-now-official-in-india-with-new-subscription-plans-disney-hotstar.jpg) ;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/453/445/desktop-wallpaper-disney-plus-hotstar-now-official-in-india-with-new-subscription-plans-disney-hotstar.jpg);
     background-repeat: no-repeat;
     background-size: 60rem;
     background-position-x: 20px;
-    
+
 }
 
 /* Importing fonts from Google */
@@ -32,7 +31,7 @@
     padding: 10px 30px 30px 30px;
     background-color: white;
     border-radius: 15px;
-    
+
 }
 
 .logo {

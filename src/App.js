@@ -13,22 +13,22 @@ import MoviePage from './components/MoviePage/MoviePage';
 function App() {
   return (
     <>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Wrapper />}>
-          <Route path='' element={<HomePage />} />
-          <Route path='/LoginBtn' element={<LoginBtn />} />
-           <Route path='/Search' element={<SearchPage />} />
-           <Route path='/View' element={<ViewPage />} />
-           <Route path='/Subscribe' element={<SubscriptionPage />} />
-           <Route path='/Movie' element={<MoviePage />} />
-         </Route>
-         <Route path='/LoginPage' element={<LoginPage />}/>
-      </Routes>
-    </BrowserRouter>
-    <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Wrapper />}>
+            <Route path='' element={<HomePage />} />
+            <Route path='/LoginBtn' element={<LoginBtn />} />
+            <Route path='/Search' element={<SearchPage />} />
+            <Route path='/View' element={<ViewPage />} />
+            <Route path='/Subscribe' element={<SubscriptionPage />} />
+            <Route path='/Movie' element={<MoviePage />} />
+          </Route>
+          <Route path='/LoginPage' element={<LoginPage />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
     </>
-    
+
   );
 }
 

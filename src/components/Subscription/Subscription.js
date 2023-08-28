@@ -1,5 +1,5 @@
 import React from 'react';
-import  { useState } from 'react';
+import { useState } from 'react';
 
 const SubscriptionPlan = ({ plans, handlePlanSelect }) => {
   return (
@@ -78,4 +78,4 @@ const PaymentForm = ({ selectedPlan, handlePayment }) => {
 
 
 
-export {SubscriptionPlan,PaymentForm};
+export { SubscriptionPlan, PaymentForm };

@@ -3,7 +3,7 @@ import "../LoginPage/LoginPage.css";
 
 const LoginPage = () => {
   return (
-    
+
     <div className="login_overall">
       <div className="row">
         <div className="col-4"></div>
@@ -53,7 +53,7 @@ const LoginPage = () => {
         </div>
       </div>
     </div>
-    
+
   );
 };
 

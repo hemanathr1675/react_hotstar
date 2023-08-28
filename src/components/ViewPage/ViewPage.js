@@ -3,7 +3,7 @@ import View from "../View/View";
 import { useContext } from "react";
 import { CreateContextApi } from "../../Store/ContextApi";
 
-const ViewPage = ()=>{
+const ViewPage = () => {
     const contextApi = useContext(CreateContextApi);
 
 
